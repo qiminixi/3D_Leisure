@@ -4,7 +4,7 @@
 #include <dinput.h>
 #include "../ROSE/DebugHelper.h"
 #include "time.h"
-#include "resource.h"
+#include "../resource.h"
 
 static IDirectInputDevice8 *g_pMouse=NULL;
 LPDIRECTINPUT8  g_pDI;
@@ -197,7 +197,8 @@ DWORD CALLBACK Thread_Input(LPVOID param)
 		while(!g_bKeyDown) Sleep(10);//µÈ´ý¼üÅÌ°´ÏÂ
 		
 		if(g_vk!='A' && g_vk!='S' && g_vk!='D' && g_vk!='W' && 
-			g_vk!=VK_UP && g_vk!=VK_DOWN && g_vk!=VK_LEFT && g_vk!=VK_RIGHT)
+			g_vk!=VK_UP && g_vk!=VK_DOWN && g_vk!=VK_LEFT && g_vk!=VK_RIGHT &&
+			g_vk != 'R' && g_vk != 'F')
 		{
 			KeyDown(g_vk);
 			Sleep(500);

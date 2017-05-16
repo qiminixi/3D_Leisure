@@ -361,7 +361,7 @@ void GameRender()
 void KeyDown(UINT vk)
 {
 	const float MOVEUNIT=0.3f;
-	const float MOVEANGEL=(3.1415926f/180*  0);
+	const float MOVEANGEL=(3.1415926f/180*1);
 	switch(vk)
 	{
 		//Ç°½øºóÍË
