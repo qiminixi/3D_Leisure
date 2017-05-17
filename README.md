@@ -1,5 +1,11 @@
 # 3D_Leisure
-A simple 3D application that draw a toy and some boxes. You can walk through the boxes, or climb to the top of hill.
+A simple 3D application that draw a toy and some boxes. You can walk through the boxes, or climb to the top of hill.  
 
-===================================================
-一个3D小程序，本来是想做一个简单的游戏引擎的，于是乎就诞生了这个小程序。网格是运行时生成的，地形是载入的raw文件。
+At the beginning of writing this program, I want to make a little game engine, but It is hard and I don't have much time.  
+
+The terrain is load from raw file in res folder. The meshes is created in runtime. The toy is actor with frame animation.  
+
+
+![screenshot](https://github.com/qiminixi/3D_Leisure/blob/master/release/screenshot.png)
+
+If you want to run the application on your computer, please download all the file in `release folder` except screenshot.png.
